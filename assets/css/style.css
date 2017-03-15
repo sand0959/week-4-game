@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Ransom Note";
+    src: url('../fonts/ransomnote.ttf');
+}
+
+@font-face {
+    font-family: "Astro";
+    src: url('../fonts/astro867.ttf');
+}
+
+@font-face {
+     font-family: "Jersey";
+     src: url('../fonts/jersey.ttf');
+}
+@font-face {
+    font-family: "VerbalDia";
+    src: url('../fonts/verbaldiarrhea.ttf');
+}
+
+#btn1 {
+    background-color: red;
+    color: white;
+}
+
+#btn2 {
+    background-color: green;
+    color: white;
+}
+
+div button #btn1:hover,
+div button #btn2:hover {
+    font-weight: bold;
+}
+
+.restart-div {
+    margin-top: 4px;
+}
+
+body {
+    background: url('../images/backstreet-boys-vs-nsync-billboard-650.jpg');
+    background-size: cover;
+}
+
+h1.game-title {
+    font-family: "VerbalDia";
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.vis-invis {
+    font-family: "Astro";
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.fight-section {
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: "Astro";
+    font-size: 19px;
+    color: rgb(255, 140, 0);
+}
+
+.outer-img-container {
+    color: black;
+    box-sizing: border-box;
+    width: 180px;
+    height: 100px;
+    background: white;
+    display: inline-block;
+    border: 4px solid black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.hero-images {
+    border: 4px solid black;
+    height: 94px;
+    width: 130px;
+    margin-top: -10px;
+}
+
+p.character-name {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+div.good {
+    background: black;
+    font-size: 16px;
+    color: black;
+    border: 4px solid black;
+    background-color: cyan;
+}
+
+
+div.pretender {
+    color: black;
+    font-size: 16px;
+    border: 4px solid black;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: red;
+}
+
+.attack-button {
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+.area1,
+.area2,
+.area3,
+.area4 {
+    margin-top: -20px;
+}
+
+.health {
+    font-family: "Jersey";
+    color: magenta;
+    font-size: 16px;
+    text-shadow: #000 0px 0px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
